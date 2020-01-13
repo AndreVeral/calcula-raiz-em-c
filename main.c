@@ -10,7 +10,7 @@ int main() {
     scanf("%lf", &numero);
     if(numero >= 0){
         resultado = sqrt(numero);
-        wprintf(L"A raiz quadrada de %f é: %f", numero , resultado);
+        wprintf(L"A raiz quadrada de %lf é: %lf", numero , resultado);
     }else{
         wprintf(L"Número inválido");
     }
